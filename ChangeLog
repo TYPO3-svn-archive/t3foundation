@@ -1,9 +1,11 @@
-:TODO:
-  * #i0003: doc
-  * #i0002: lib/icons/t3foundation_80x80.gif
+0.0.2
+  2014-01-08
+  Improvements
+  * #i0003: manual
+  * #i0002: lib/icons/t3foundation_90x80.gif
 
 0.0.1
   2014-01-08
-  INITIAL RELEASE
+  Initial Release
   * #i0001: Dirk Wildt (Die Netzmacher)
             http://wildt.at.die-netzmacher.de/
