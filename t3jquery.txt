@@ -1,0 +1,4 @@
+  // res/foundation-4.3.2/foundation.min.js
+  // res/foundation-5.0.2/foundation.min.js
+script=res/foundation-4.3.2/foundation.min.js,res/foundation-5.0.2/foundation.min.js
+components=

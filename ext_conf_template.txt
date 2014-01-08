@@ -1,0 +1,6 @@
+  # cat=language/enable/100;            type=options[English,German]; label= Backend Langauge: Language for special backend labels like TypoScript static templates. Property has an effect in the backend only.
+beLanguage = English
+  # cat=language/others/198;            type=user[EXT:t3foundation/lib/userfunc/class.tx_t3foundation_userfunc.php:tx_t3foundation_userfunc->promptExternalLinks]; label=External Links
+beLanguageExternalLinks = 1
+  # cat=language/others/199;           type=user[EXT:t3foundation/lib/userfunc/class.tx_t3foundation_userfunc.php:tx_t3foundation_userfunc->promptSponsors]; label=Subsidise the t3foundation project!
+beLanguageSponsors = 1ca
