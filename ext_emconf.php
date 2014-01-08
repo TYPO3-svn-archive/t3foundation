@@ -1,7 +1,7 @@
 <?php
 
 $EM_CONF[$_EXTKEY] = array(
-	'title' => 'TYPO3 Foundation',
+	'title' => 'T3 Foundation',
 	'description' => 'Responsive front-end framework foundation for TYPO3. See http://foundation.zurb.com/',
 	'category' => 'fe',
 	'shy' => 0,
