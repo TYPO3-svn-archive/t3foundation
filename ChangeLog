@@ -1,3 +1,11 @@
+0.0.3
+  2014-01-09
+  Feature
+  * #54859. Powermail for Foundation
+            Effected files:
+            * res/powermail_2.0.10/*
+            * static/4x/powermail/*
+
 0.0.2
   2014-01-08
   Improvements

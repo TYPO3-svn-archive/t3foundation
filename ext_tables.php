@@ -85,8 +85,9 @@ switch( true )
 {
   case( $beLanguage == 'de' ):
       // German
-    t3lib_extMgm::addStaticFile($_EXTKEY, 'static/5x/',  'Foundation 5x');
-    t3lib_extMgm::addStaticFile($_EXTKEY, 'static/4x/',  'Foundation 4x');
+    t3lib_extMgm::addStaticFile($_EXTKEY, 'static/5x/',           'Foundation 5x (1)');
+    t3lib_extMgm::addStaticFile($_EXTKEY, 'static/4x/',           'Foundation 4x (1)');
+    t3lib_extMgm::addStaticFile($_EXTKEY, 'static/4x/powermail',  'Foundation 4x Powermail 2x (2+)');
 //    switch( true )
 //    {
 //      case( $typo3Version < 4007000 ):
@@ -99,8 +100,9 @@ switch( true )
     break;
   default:
       // English
-    t3lib_extMgm::addStaticFile($_EXTKEY, 'static/5x/',  'Foundation 5x');
-    t3lib_extMgm::addStaticFile($_EXTKEY, 'static/4x/',  'Foundation 4x');
+    t3lib_extMgm::addStaticFile($_EXTKEY, 'static/5x/',           'Foundation 5x (1)');
+    t3lib_extMgm::addStaticFile($_EXTKEY, 'static/4x/',           'Foundation 4x (1)');
+    t3lib_extMgm::addStaticFile($_EXTKEY, 'static/4x/powermail',  'Foundation 4x Powermail 2x (2+)');
 //    switch( true )
 //    {
 //      case( $typo3Version < 4007000 ):

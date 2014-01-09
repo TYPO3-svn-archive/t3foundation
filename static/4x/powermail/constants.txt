@@ -1,0 +1,6 @@
+plugin.tx_powermail {
+  view {
+    partialRootPath   = EXT:t3foundation/res/powermail_2.0.10/Partials/
+    templateRootPath  = EXT:t3foundation/res/powermail_2.0.10/Templates/
+  }
+}
