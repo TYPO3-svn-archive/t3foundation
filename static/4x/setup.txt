@@ -6,7 +6,8 @@ page {
     t3foundation4xModernizr = EXT:t3foundation/res/foundation-4.3.2/js/vendor/custom.modernizr.js
   }
   includeJSFooterlibs {
-    t3foundation4x = EXT:t3foundation/res/foundation-4.3.2/js/foundation.min.js
+    t3foundation4x        = EXT:t3foundation/res/foundation-4.3.2/js/foundation.min.js
+    t3foundation4xAbide5x = EXT:t3foundation/res/foundation-4.3.2/js/foundation/foundation.abide.5.0.2.js
   }
   includeJSFooter {
     t3foundation4x = EXT:t3foundation/res/foundation.js
