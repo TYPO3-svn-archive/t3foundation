@@ -13,7 +13,7 @@ Render Powermail Form
       <f:if condition="{forms}">
         <f:then>
           <f:for each="{forms}" as="form">
-            <f:form action="{action}" controller="Forms" enctype="multipart/form-data" class="powermail_form powermail_form_{form.uid} {form.css} {vh:Misc.MorestepClass(activate: '{settings.main.moresteps}', class: 'powermail_morestep')}">
+            <f:form data-abide action="{action}" controller="Forms" enctype="multipart/form-data" class="powermail_form powermail_form_{form.uid} {form.css} {vh:Misc.MorestepClass(activate: '{settings.main.moresteps}', class: 'powermail_morestep')}">
               <f:render partial="FormError" arguments="{error}" />
               <div class="section-container tabs" data-section="tabs">
                 <f:for each="{form.pages}" as="page">
