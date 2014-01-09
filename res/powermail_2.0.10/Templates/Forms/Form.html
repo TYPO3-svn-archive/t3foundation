@@ -23,10 +23,10 @@ Render Powermail Form
             <f:if condition="{forms}">
               <f:then>
                 <f:for each="{forms}" as="form">
-                  <f:form action="{action}" controller="Forms" enctype="multipart/form-data" class="powermail_form powermail_form_{form.uid} {form.css} {vh:Misc.MorestepClass(activate: '{settings.main.moresteps}', class: 'powermail_morestep')}">
-                    <f:render partial="FormError" arguments="{error}" />
-                    <f:for each="{form.pages}" as="page">
-                      <div class="section-container tabs" data-section="tabs">
+                  <div class="section-container tabs" data-section="tabs">
+                    <f:form action="{action}" controller="Forms" enctype="multipart/form-data" class="powermail_form powermail_form_{form.uid} {form.css} {vh:Misc.MorestepClass(activate: '{settings.main.moresteps}', class: 'powermail_morestep')}">
+                      <f:render partial="FormError" arguments="{error}" />
+                      <f:for each="{form.pages}" as="page">
                         <section>
                           <p class="title" data-section-title><a id="payment-cc" class="paymenttype" href="#">{page.title}</a></p>
                           <div class="content" data-section-content>
@@ -38,11 +38,11 @@ Render Powermail Form
                             </fieldset>
                           </div>
                         </section>
-                      </div>
-                    </f:for>
-                    <f:form.hidden name="form" value="{form.uid}" />
-                    <f:render partial="HoneyPod" arguments="{form: form}" />
-                  </f:form>
+                      </f:for>
+                      <f:form.hidden name="form" value="{form.uid}" />
+                      <f:render partial="HoneyPod" arguments="{form: form}" />
+                    </f:form>
+                  </div>
                 </f:for>
               </f:then>
               <f:else>
