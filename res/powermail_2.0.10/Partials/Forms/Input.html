@@ -5,8 +5,11 @@
     <div id="powermail_fieldwrap_{field.uid}" class="powermail_fieldwrap powermail_fieldwrap_input powermail_fieldwrap_{field.uid} {field.css}">
       <f:if condition="{field.sender_email}">
         <f:then>
-          HALLO
+          ja doch
         </f:then>
+      <f:else>
+        nee
+      </f:else>
       </f:if>
       <label for="powermail_field_{field.marker}" class="powermail_label right inline">
         <vh:string.RawAndRemoveXss>{field.title}</vh:string.RawAndRemoveXss><f:if condition="{field.mandatory}"><span class="mandatory">*</span></f:if>
