@@ -13,3 +13,12 @@ plugin.tx_powermail {
     }
   }
 }
+
+page {
+  includeJSFooterlibs {
+    powermailJQueryFormValidation >
+    powermailJQueryTabs >
+    powermailJQueryFormValidationLanguage >
+    powermailJQueryUiDatepicker >
+  }
+}
