@@ -25,14 +25,14 @@ jQuery( document ).ready( function( $ ) {
           fieldsetId  = $( '#' + fieldWrapId ).closest( "fieldset" ).attr( "id" );
             // legend from current fieldset
           legend      = $( '#' + fieldsetId + " > legend" ).text( );
-          strAppend   = "<p>" + $( fieldsetId ).next( ).text( ) + ": <strong>[" + legend + "] " + $( fieldsetId ).next( ).text( ) + "</strong></p>";
+          strAppend   = "<p>" + $( fieldId ).next( ).text( ) + ": <strong>[" + legend + "] " + $( fieldId ).next( ).text( ) + "</strong></p>";
           break;
         default:
             // Id from closest fieldset
           fieldsetId  = $( '#' + fieldId ).closest( "fieldset" ).attr( "id" );
             // legend from current fieldset
           legend      = $( '#' + fieldsetId + " > legend" ).text( );
-          strAppend   = "<p>" + $( fieldsetId ).next( ).text( ) + ": <strong>[" + legend + "] " + $( fieldsetId ).prev( ).text( ) + "</strong></p>";
+          strAppend   = "<p>" + $( fieldId ).next( ).text( ) + ": <strong>[" + legend + "] " + $( fieldId ).prev( ).text( ) + "</strong></p>";
           break;
       }
       console.debug( strAppend );      
