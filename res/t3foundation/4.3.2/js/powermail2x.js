@@ -13,9 +13,10 @@ jQuery( document ).ready( function( $ ) {
   $('form.powermail_form').on( 'invalid', function ( ) {
     var invalid_fields = $( this ).find( '[data-invalid]' );
     $.each( invalid_fields, function( index, invalid_field ) {
-      var fieldId = invalid_field.attr( 'id' );
-      console.debug( invalid_field.attr( 'id' ) );      
-      switch( invalid_field.attr( 'type' ) )
+      var fieldId = invalid_field.id;
+      console.debug( invalid_field.id );      
+      console.debug( invalid_field.type );      
+      switch( invalid_field.type )
       {
         case( 'radio' ):
         case( 'checkbox' ):
