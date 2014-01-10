@@ -15,24 +15,12 @@ jQuery( document ).ready( function( $ ) {
     $.each( invalid_fields, function( index, invalid_field ) {
       var fieldId = invalid_field.id;
       console.debug( invalid_field.id );      
-      console.debug( invalid_field.type );      
-      switch( invalid_field.type )
-      {
-        case( 'radio' ):
-        case( 'checkbox' ):
-          fieldsetId  = $( '#' + fieldId ).closest( "fieldset.powermail_fieldset" ).attr( "id" );
-            // legend from current fieldset
-          legend      = $( '#' + fieldsetId + " > legend" ).text( );
-          strAppend   = "<p>" + $( '#' + fieldId ).next( ).text( ) + ": <strong>[" + legend + "] " + $( '#' + fieldId ).prev( ).text( ) + "</strong></p>";
-          break;
-        default:
-            // Id from closest fieldset
-          fieldsetId  = $( '#' + fieldId ).closest( "fieldset.powermail_fieldset" ).attr( "id" );
-            // legend from current fieldset
-          legend      = $( '#' + fieldsetId + " > legend" ).text( );
-          strAppend   = "<p>" + $( '#' + fieldId ).next( ).text( ) + ": <strong>[" + legend + "] " + $( '#' + fieldId ).prev( ).text( ) + "</strong></p>";
-          break;
-      }
+      tabId       = $( '#' + fieldId ).closest( "p" ).attr( "data-section-title" );
+      console.debug( tabId );      
+      fieldsetId  = $( '#' + fieldId ).closest( "fieldset.powermail_fieldset" ).attr( "id" );
+        // legend from current fieldset
+      legend      = $( '#' + fieldsetId + " > legend" ).text( );
+      strAppend   = "<p>" + $( '#' + fieldId ).next( ).text( ) + ": <strong>[" + legend + "] " + $( '#' + fieldId ).prev( ).text( ) + "</strong></p>";
       console.debug( strAppend );      
     })
   }).on( 'valid' , function ( ) {
