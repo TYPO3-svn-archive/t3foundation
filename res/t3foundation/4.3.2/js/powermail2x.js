@@ -1,3 +1,6 @@
+
+// t3foundation/res/t3foundation/4.3.2/js/powermail2x.js
+
 $( document ).ready( function( ) {
-  alert( "Hey" );
+  $( "form.powermail_form" ).attr( "data-abide", "data-abide");
 });
