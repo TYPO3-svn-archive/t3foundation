@@ -9,12 +9,14 @@
       <f:for each="{field.settings}" as="setting" iteration="index">
         <div class="powermail_radio_inner powermail_radio_inner_{index.cycle}">
           <label for="powermail_field_{field.marker}_{index.cycle}">
+            <span style="display:none;"><vh:string.RawAndRemoveXss>{setting.label}</vh:string.RawAndRemoveXss></span>
             <f:form.radio
               name="field[{field.uid}]"
               value="{setting.value}"
               checked="{vh:Misc.PrefillField(field: '{field}', cycle: '{index.cycle}')}"
               id="powermail_field_{field.marker}_{index.cycle}"
               class="powermail_radio {vh:Misc.ValidationClass(field: '{field}')}" />
+            <small class="error"><f:translate key="abide_radio_required" /></small>
             <vh:string.RawAndRemoveXss>{setting.label}</vh:string.RawAndRemoveXss>
           </label>
         </div>
