@@ -6,4 +6,10 @@ jQuery( document ).ready( function( $ ) {
   $( ".powermail_radio" ).attr( "required", "required" );
   $( document ).foundation( "abide", "events" );          // foundation 4.x
   // $('#your_form_id').foundation({bindings: 'events'}); // example foundation 5.x    
+  $('form.powermail_form').on('invalid', function () {
+    var invalid_fields = $(this).find('[data-invalid]');
+    console.debug(invalid_fields);
+  }).on('valid', function () {
+    console.debug('valid!');
+  });  
 });
