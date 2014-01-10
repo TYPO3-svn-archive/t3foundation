@@ -9,10 +9,10 @@ jQuery( document ).ready( function( $ ) {
   $('form.powermail_form').on( 'invalid', function ( ) {
     var invalid_fields = $( this ).find( '[data-invalid]' );
     console.debug( invalid_fields );
-    $.each( invalid_fields, function( index, error, nochwas ) {
+    $.each( invalid_fields, function( index, invalid_field ) {
       console.debug( index );
-      console.debug( error );      
-      console.debug( nochwas );      
+      console.debug( invalid_field );      
+      console.debug( invalid_field.attr( 'id' ) );      
     })
   }).on( 'valid' , function ( ) {
     console.debug( 'valid!' );
