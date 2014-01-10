@@ -17,7 +17,7 @@ Render Powermail Form
               <f:render partial="FormError" arguments="{error}" />
               <div class="section-container tabs" data-section="tabs">
                 <f:for each="{form.pages}" as="page">
-                  <section>
+                  <section id="powermail_section_{page.uid}">
                     <p id="powermail_tab_{page.uid}" class="title" data-section-title><a href="#">{page.title}</a></p>
                     <div class="content" data-section-content>
                       <fieldset id="powermail_fieldset_{page.uid}" class="powermail_fieldset powermail_fieldset_{page.uid} {page.css}">
