@@ -1,12 +1,10 @@
 {namespace vh=Tx_Powermail_ViewHelpers}
 
-<div class="row">
+<div id="powermail_fieldwrap_{field.uid}" class="row powermail_fieldwrap powermail_fieldwrap_input powermail_fieldwrap_{field.uid} {field.css}">
   <div class="small-3 large-3 columns">
-    <div id="powermail_fieldwrap_{field.uid}" class="powermail_fieldwrap powermail_fieldwrap_input powermail_fieldwrap_{field.uid} {field.css}">
-      <label for="powermail_field_{field.marker}" class="powermail_label right inline">
-        <vh:string.RawAndRemoveXss>{field.title}</vh:string.RawAndRemoveXss><f:if condition="{field.mandatory}"><span class="mandatory">*</span></f:if>
-      </label>
-    </div>
+    <label for="powermail_field_{field.marker}" class="powermail_label right inline">
+      <vh:string.RawAndRemoveXss>{field.title}</vh:string.RawAndRemoveXss><f:if condition="{field.mandatory}"><span class="mandatory">*</span></f:if>
+    </label>
   </div>
   <div class="small-9 large-9 columns">
     <f:if condition="{field.mandatory}">
