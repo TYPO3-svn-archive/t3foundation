@@ -11,6 +11,7 @@ jQuery( document ).ready( function( $ ) {
   // $('#your_form_id').foundation({bindings: 'events'}); // example foundation 5.x    
     // 
   $('form.powermail_form').on( 'invalid', function ( ) {
+    $( '[data-section-title]' ).removeClass( 'tab-error' );
     var invalid_fields = $( this ).find( '[data-invalid]' );
     $.each( invalid_fields, function( index, invalid_field ) {
       var fieldId = invalid_field.id;
