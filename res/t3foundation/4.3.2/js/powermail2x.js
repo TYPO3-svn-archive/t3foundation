@@ -28,6 +28,7 @@ jQuery( document ).ready( function( $ ) {
           strAppend   = "<p>" + $( fieldId ).next( ).text( ) + ": <strong>[" + legend + "] " + $( fieldId ).next( ).text( ) + "</strong></p>";
           break;
         default:
+          fieldWrapId = $( '#' + fieldId ).closest( "div.powermail_fieldset" ).attr( "id" );
             // Id from closest fieldset
           fieldsetId  = $( '#' + fieldId ).closest( "fieldset" ).attr( "id" );
             // legend from current fieldset
