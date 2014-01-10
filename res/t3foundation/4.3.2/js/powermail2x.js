@@ -15,7 +15,7 @@ jQuery( document ).ready( function( $ ) {
     $.each( invalid_fields, function( index, invalid_field ) {
       var fieldId = invalid_field.id;
       console.debug( invalid_field.id );      
-      tabId       = $( '#' + fieldId ).closest( "[data-section-title]" );
+      tabId       = $( '#' + fieldId ).closest( "[data-section-title]" ).attr( "id" );
       console.debug( tabId );      
       fieldsetId  = $( '#' + fieldId ).closest( "fieldset.powermail_fieldset" ).attr( "id" );
         // legend from current fieldset
