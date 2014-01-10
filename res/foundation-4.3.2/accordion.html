@@ -14,6 +14,18 @@
   <body>
 
 
+    <form> 
+      <div class="name-field"> 
+        <label>Your name <small>required</small></label> 
+        <input type="text" required pattern="[a-zA-Z]+"> <small class="error">Name is required and must be a string.</small> 
+      </div> 
+      <div class="email-field"> 
+        <label>Email <small>required</small></label> 
+        <input type="email" required> <small class="error">An email address is required.</small> 
+      </div> 
+      <button type="submit">Submit</button> 
+    </form>    
+
     <div class="section-container accordion large-12 columns" data-section="accordion">
       <section>
         <div class="title" data-section-title>
@@ -330,6 +342,12 @@
             $('#payment-elv').addClass('paymenttype_active');
           }
         });
+      });
+    </script>
+    <script type="text/javascript">
+      jQuery( document ).ready( function( $ ) {
+        $( "form" ).attr( "data-abide", "data-abide" );
+        $( document ).foundation( "abide", "events" ); // 4.x
       });
     </script>
   </body>
