@@ -18,7 +18,7 @@ jQuery( document ).ready( function( $ ) {
       tabId       = $( '#' + fieldId ).closest( 'p[data-section-title]' ).attr( 'id' );
       sectionId   = $( '#' + fieldId ).closest( 'section' ).attr( 'id' );
       tabId       = $( '#' + sectionId + ' > [data-section-title]').attr( 'id' );
-      $( '#' + tabId ).addClass( 'error' );
+      $( '#' + tabId ).addClass( 'tab-error' );
       console.debug( tabId );      
       fieldsetId  = $( '#' + fieldId ).closest( 'fieldset.powermail_fieldset' ).attr( 'id' );
         // legend from current fieldset
