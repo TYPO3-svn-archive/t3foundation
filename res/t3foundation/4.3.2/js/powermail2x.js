@@ -2,7 +2,9 @@
 // t3foundation/res/t3foundation/4.3.2/js/powermail2x.js
 
 jQuery( document ).ready( function( $ ) {
-  alert( $( 'form.powermail_form div > section' ).attr( 'id' ) );
+    // Open the first tab: set the class of the first section to active
+  idOfFirstSection = $( 'form.powermail_form div > section' ).attr( 'id' );
+  $( '#' + idOfFirstSection ).addClass( 'active' );
     // Add the attribute data-abide to the powermail form
     // Use jQuery, because fluid doesn't accept data-abide attribute'
   $( 'form.powermail_form' ).attr( 'data-abide', 'data-abide' );
