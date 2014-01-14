@@ -33,9 +33,7 @@ Show Confirmation Page
 			</f:for>
 			<f:form.hidden name="form" value="{form}" />
 
-			<f:form.button class="powermail_confirmation_form">
-                          {f:translate(key: 'confirmation_prev')}
-                        </f:form.button>
+			<f:form.submit value="{f:translate(key: 'confirmation_prev')}" class="powermail_confirmation_form" />
 		</f:form>
 
 
@@ -57,9 +55,7 @@ Show Confirmation Page
 			</f:for>
 			<f:form.hidden name="form" value="{form}" />
 
-			<f:form.button class="powermail_confirmation_submit">
-                          {f:translate(key: 'confirmation_next')}
-                        </f:form.button>
+			<f:form.submit value="{f:translate(key: 'confirmation_next')}" class="powermail_confirmation_submit" />
 		</f:form>
 
 		<div class="clear"></div>
