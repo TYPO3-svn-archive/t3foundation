@@ -8,31 +8,15 @@
     <div class="powermail_check_outer {vh:Misc.ErrorClass(field: '{field}', class: 'powermail_field_error')}">
       <f:for each="{field.settings}" as="setting" iteration="index">
         <div class="powermail_check_inner powermail_check_inner_{index.cycle}">
-          <f:if condition="{field.mandatory}">
-            <f:then>
-              <label for="powermail_field_{field.marker}_{index.cycle}">
-                <input type="checkbox"
-                       name="powermail_field_field[{field.uid}][{index.index}]"
-                       value="{setting.value}"
-                       checked="{vh:Misc.PrefillField(field: '{field}', cycle: '{index.cycle}')}"
-                       id="powermail_field_{field.marker}_{index.cycle}"
-                       class="powermail_checkbox powermail_checkbox_{field.uid} {vh:Misc.ValidationClass(field: '{field}')}"
-                       required="1" >
-                <vh:string.RawAndRemoveXss>{setting.label}</vh:string.RawAndRemoveXss>
-              </label>
-            </f:then>
-            <f:else>
-              <label for="powermail_field_{field.marker}_{index.cycle}">
-                <f:form.checkbox
-                  name="field[{field.uid}][{index.index}]"
-                  value="{setting.value}"
-                  checked="{vh:Misc.PrefillField(field: '{field}', cycle: '{index.cycle}')}"
-                  id="powermail_field_{field.marker}_{index.cycle}"
-                  class="powermail_checkbox powermail_checkbox_{field.uid} {vh:Misc.ValidationClass(field: '{field}')}" />
-                <vh:string.RawAndRemoveXss>{setting.label}</vh:string.RawAndRemoveXss>
-              </label>
-            </f:else>
-          </f:if>
+          <label for="powermail_field_{field.marker}_{index.cycle}">
+            <f:form.checkbox
+              name="field[{field.uid}][{index.index}]"
+              value="{setting.value}"
+              checked="{vh:Misc.PrefillField(field: '{field}', cycle: '{index.cycle}')}"
+              id="powermail_field_{field.marker}_{index.cycle}"
+              class="powermail_checkbox powermail_checkbox_{field.uid} {vh:Misc.ValidationClass(field: '{field}')}" />
+            <vh:string.RawAndRemoveXss>{setting.label}</vh:string.RawAndRemoveXss>
+          </label>
         </div>
       </f:for>
     </div>
