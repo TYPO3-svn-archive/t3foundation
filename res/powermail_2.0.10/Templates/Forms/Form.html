@@ -16,6 +16,7 @@ Render Powermail Form
             <f:form action="{action}" controller="Forms" enctype="multipart/form-data" class="powermail_form powermail_form_{form.uid} {form.css} {vh:Misc.MorestepClass(activate: '{settings.main.moresteps}', class: 'powermail_morestep')}">
               <f:render partial="FormError" arguments="{error}" />
               <div class="section-container tabs" data-section="tabs">
+              <!-- <div class="section-container auto" data-section"> -->
                 <f:for each="{form.pages}" as="page">
                   <section id="powermail_section_{page.uid}">
                     <p id="powermail_tab_{page.uid}" class="title" data-section-title><a href="#">{page.title}</a></p>
