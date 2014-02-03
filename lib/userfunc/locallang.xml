@@ -40,42 +40,42 @@
         <ul style="list-style:outside;margin-left:2em;">
           <li style="margin-bottom:.6em;">
             <a href="http://typo3.org/extension-manuals/t3foundation/"
-              style="text-decoration:underline;"
+              style="background:none;border:none;float:none;text-decoration:underline;"
               alt="t3foundation - online manual"
               title="t3foundation - online manual"
               target="_blank">Manual (HTML) &raquo;</a>
           </li>
           <li style="margin-bottom:.6em;">
             <a href="../../../../typo3conf/ext/t3foundation/doc/manual.pdf"
-              style="text-decoration:underline;"
+              style="background:none;border:none;float:none;text-decoration:underline;"
               alt="t3foundation - PDF manual"
               title="t3foundation - PDF manual"
               target="_blank">Manual (PDF) &raquo;</a>
           </li>
           <li style="margin-bottom:.6em;">
             <a href="http://typo3-foundation.de/en"
-              style="text-decoration:underline;"
+              style="background:none;border:none;float:none;text-decoration:underline;"
               alt="t3foundation - the Shopping Cart"
               title="t3foundation - the Shopping Cart"
               target="_blank">Homepage &raquo;</a>
           </li>
           <li style="margin-bottom:.6em;">
             <a href="http://typo3-foundation.de/forum/" 
-              style="text-decoration:underline;"
+              style="background:none;border:none;float:none;text-decoration:underline;"
               alt="TYPO3-t3foundation - Forum"
               title="TYPO3-t3foundation - Forum"
               target="_blank">Forum &raquo;</a>
           </li>
           <li style="margin-bottom:.6em;">
             <a href="http://typo3-foundation.de/en/support"
-              style="text-decoration:underline;"
+              style="background:none;border:none;float:none;text-decoration:underline;"
               alt="t3foundation - the Shopping Cart"
               title="t3foundation - the Shopping Cart"
               target="_blank">Support &raquo;</a>
           </li>
           <li style="margin-bottom:.6em;">
             <a href="http://typo3-foundation.de/en/sponsoring"
-              style="text-decoration:underline;"
+              style="background:none;border:none;float:none;text-decoration:underline;"
               alt="t3foundation - the Shopping Cart"
               title="t3foundation - the Shopping Cart"
                 target="_blank">Sponsoring &raquo;</a>
@@ -87,7 +87,7 @@
         <ul style="list-style:outside;margin-left:2em;">
           <li style="margin-bottom:.6em;">
             <a href="http://wildt.at.die-netzmacher.de/" 
-              style="text-decoration:underline;"
+              style="background:none;border:none;float:none;text-decoration:underline;"
               alt="Dirk Wildt (Die Netzmacher) - the developer of TYPO3-Foundation."
               title="Dirk Wildt (Die Netzmacher) - the developer of TYPO3-Foundation."
               target="_blank">Dirk Wildt (Die Netzmacher) &raquo;</a>
@@ -110,7 +110,7 @@
           <br />
           Dirk Wildt<br />
           <a href="http://typo3-foundation.de/en/sponsoring/"
-            style="text-decoration:underline;"
+            style="background:none;border:none;float:none;text-decoration:underline;"
             alt="Donating and Sponsoring"
             title="Donating and Sponsoring"
             target="_blank">
@@ -130,7 +130,7 @@
         <p style="padding:0 0 1em 0;">
           You like to subsidise the TYPO3-Foundation project?
           <a href="http://typo3-foundation.de/en/sponsoring/"
-            style="text-decoration:underline;"
+            style="background:none;border:none;float:none;text-decoration:underline;"
             alt="Your logo with your URL. 120 x 90 pixel."
             title="Your logo with your URL. 120 x 90 pixel."
             target="_blank">
@@ -200,42 +200,42 @@
         <ul style="list-style:outside;margin-left:2em;">
           <li style="margin-bottom:.6em;">
             <a href="http://typo3.org/extension-manuals/t3foundation/"
-              style="text-decoration:underline;"
+              style="background:none;border:none;float:none;text-decoration:underline;"
               alt="t3foundation - Online-Handbuch"
               title="t3foundation - Online-Handbuch"
               target="_blank">Handbuch (HTML) &raquo;</a>
           </li>
           <li style="margin-bottom:.6em;">
             <a href="../../../../typo3conf/ext/t3foundation/doc/manual.pdf"
-              style="text-decoration:underline;"
+              style="background:none;border:none;float:none;text-decoration:underline;"
               alt="t3foundation - PDF-Handbuch"
               title="t3foundation - PDF-Handbuch"
               target="_blank">Handbuch (PDF) &raquo;</a>
           </li>
           <li style="margin-bottom:.6em;">
             <a href="http://typo3-foundation.de/en"
-              style="text-decoration:underline;"
+              style="background:none;border:none;float:none;text-decoration:underline;"
               alt="t3foundation - the Shopping Cart"
               title="t3foundation - the Shopping Cart"
               target="_blank">Homepage &raquo;</a>
           </li>
           <li style="margin-bottom:.6em;">
             <a href="http://typo3-foundation.de/forum/" 
-              style="text-decoration:underline;"
+              style="background:none;border:none;float:none;text-decoration:underline;"
               alt="TYPO3-Foundation - Forum"
               title="TYPO3-Foundation - Forum"
               target="_blank">Forum &raquo;</a>
           </li>
           <li style="margin-bottom:.6em;">
             <a href="http://typo3-foundation.de/support/" 
-              style="text-decoration:underline;"
+              style="background:none;border:none;float:none;text-decoration:underline;"
               alt="TYPO3-Foundation - Support"
               title="TYPO3-Foundation - Support"
               target="_blank">Support &raquo;</a>
           </li>
           <li style="margin-bottom:.6em;">
             <a href="http://typo3-foundation.de/sponsoring/" 
-              style="text-decoration:underline;"
+              style="background:none;border:none;float:none;text-decoration:underline;"
               alt="TYPO3-Foundation - Sponsoring"
               title="TYPO3-Foundation - Sponsoring"
               target="_blank">Sponsoring &raquo;</a>
@@ -247,7 +247,7 @@
         <ul style="list-style:outside;margin-left:2em;">
           <li style="margin-bottom:.6em;">
             <a href="http://wildt.at.die-netzmacher.de/" 
-              style="text-decoration:underline;"
+              style="background:none;border:none;float:none;text-decoration:underline;"
               alt="Dirk Wildt (Die Netzmacher) - der Entwickler von TYPO3-Foundation."
               title="Dirk Wildt (Die Netzmacher) - der Entwickler von TYPO3-Foundation."
               target="_blank">Dirk Wildt (Die Netzmacher) - der Entwickler von TYPO3-Foundation &raquo;</a>
@@ -270,7 +270,7 @@
           <br />
           Dirk Wildt<br />
           <a href="http://typo3-foundation.de/sponsoring/"
-            style="text-decoration:underline;"
+            style="background:none;border:none;float:none;text-decoration:underline;"
             alt="Spenden und Sponsern"
             title="Spenden und Sponsern"
             target="_blank">
@@ -290,7 +290,7 @@
         <p style="padding:0 0 1em 0;">
           M&ouml;chtest Du das TYPO3-Foundation-Projekt unterst&uuml;tzen?
           <a href="http://typo3-foundation.de/sponsoring/"
-            style="text-decoration:underline;"
+            style="background:none;border:none;float:none;text-decoration:underline;"
             alt="Dein Logo mit Deiner URL. 120 x 90 Pixel."
             title="Dein Logo mit Deiner URL. 120 x 90 Pixel."
             target="_blank">
