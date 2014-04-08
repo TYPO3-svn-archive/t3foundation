@@ -1,3 +1,10 @@
+0.0.5
+  2014-04-08
+  Development
+  * #i0005: Powermail section: tab -> auto
+            Effected file:
+            * res/powermail_2.0.10/Templates/Forms/Form.html: 18
+
 0.0.4
   2014-01-14
   Feature
