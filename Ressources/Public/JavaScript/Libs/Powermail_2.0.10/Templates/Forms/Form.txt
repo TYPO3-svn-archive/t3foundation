@@ -1,0 +1,2 @@
+* removed : <h3>
+* added   : <section>
