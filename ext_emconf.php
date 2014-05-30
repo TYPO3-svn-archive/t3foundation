@@ -1,38 +1,28 @@
 <?php
 
 $EM_CONF[$_EXTKEY] = array(
-	'title' => 'TYPO3 Foundation',
-	'description' => 'Responsive front-end framework foundation for TYPO3. Manual: http://typo3-foundation.de/typo3conf/ext/t3foundation/doc/manual.pdf. .Foundation: http://foundation.zurb.com/',
-	'category' => 'fe',
-	'shy' => 0,
-	'version' => '0.0.5',
-	'dependencies' => '',
-	'conflicts' => '',
-	'priority' => '',
-	'loadOrder' => '',
-	'module' => '',
-	'state' => 'alpha',
-	'uploadfolder' => 0,
-	'createDirs' => '',
-	'modify_tables' => '',
-	'clearcacheonload' => 1,
-	'lockType' => '',
-	'author' => 'Dirk Wildt (Die Netzmacher)',
-	'author_email' => 'http://wildt.at.die-netzmacher.de',
-	'author_company' => '',
-	'CGLcompliance' => '',
-	'CGLcompliance_note' => '',
-	'constraints' => array(
-		'depends' => array(
-			'typo3' => '4.5.0-6.1.99',
-		),
-		'conflicts' => array(
-		),
-		'suggests' => array(
-		),
-	),
-	'suggests' => array(
-	),
+  'title' => 'TYPO3 Foundation',
+  'description' => 'Foundation for TYPO3. The responsive front-end framework. '
+  . 'Manual: http://typo3-foundation.de/typo3conf/ext/t3foundation/doc/manual.pdf. '
+  . '.Foundation: http://foundation.zurb.com/'
+  ,
+  'category' => 'fe',
+  'author' => 'Dirk Wildt (Die Netzmacher)',
+  'author_email' => 'http://wildt.at.die-netzmacher.de',
+  'state' => 'alpha',
+  'internal' => '',
+  'uploadfolder' => '0',
+  'createDirs' => '',
+  'clearCacheOnLoad' => 0,
+  'version' => '0.1.0',
+  'constraints' => array(
+    'depends' => array(
+      'typo3' => '4.5.0-6.1.99',
+    ),
+    'conflicts' => array(
+    ),
+    'suggests' => array(
+    ),
+  ),
 );
-
 ?>

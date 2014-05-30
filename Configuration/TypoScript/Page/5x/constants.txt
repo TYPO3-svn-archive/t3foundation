@@ -1,0 +1,8 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:css_styled_content/static/constants.txt">
+
+t3foundation {
+  pages {
+    # cat=t3foundation - pages//200; type=int+; label= Root:Id of your root page. Pages in lower levels will inherit the content of a column, if they haven't any content in this column.
+    root = 1
+  }
+}

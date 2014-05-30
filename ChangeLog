@@ -1,9 +1,14 @@
+0.1.0
+  2014-05-30
+  Development
+  * #i0006: Update for extbase and fluid
+
 0.0.5
   2014-04-08
   Development
   * #i0005: Powermail section: tab -> auto
             Effected file:
-            * res/powermail_2.0.10/Templates/Forms/Form.html: 18
+            * Ressources/Public/JavaScript/Libs/Powermail_2.0.10/Templates/Forms/Form.html: 18
 
 0.0.4
   2014-01-14
@@ -15,7 +20,7 @@
   Feature
   * #54859. Powermail for Foundation
             Effected files:
-            * res/powermail_2.0.10/*
+            * Ressources/Public/JavaScript/Libs/Powermail_2.0.10/*
             * static/4x/powermail/*
 
 0.0.2

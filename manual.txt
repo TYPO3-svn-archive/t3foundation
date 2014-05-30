@@ -1,0 +1,4 @@
+* t3foundation 
+  * Include static template: Foundation [2] 4x + Powermail 2x isn't compatible with TYPO3 4.x
+  * Foundation 4.x: nested sections aren't possible ony, if sections has the same type like accordion > accordion or tabs > tabs.
+    accordion > tabs isn't possible!

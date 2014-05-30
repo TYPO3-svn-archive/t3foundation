@@ -31,13 +31,13 @@ $version = $version + ( ( int ) $bugfix ) * 1;
 $typo3Version = $version;
   // Set TYPO3 version as integer (sample: 4.7.7 -> 4007007)
 
-if( $typo3Version < 3000000 ) 
+if( $typo3Version < 4005000 )
 {
   $prompt = '<h1>ERROR</h1>
     <h2>Unproper TYPO3 version</h2>
     <ul>
       <li>
-        TYPO3 version is smaller than 3.0.0
+        TYPO3 version is smaller than 4.5.0
       </li>
       <li>
         constant TYPO3_version: ' . TYPO3_version . '
@@ -52,7 +52,7 @@ if( $typo3Version < 3000000 )
   // Set TYPO3 version
 
 
-    
+
 
   ////////////////////////////////////////////////////////////////////////////
   //
@@ -81,42 +81,24 @@ switch( $beLanguage )
   // Enables the Include Static Templates
 
   // Case $beLanguage
-switch( true ) 
+switch( true )
 {
   case( $beLanguage == 'de' ):
       // German
-    t3lib_extMgm::addStaticFile($_EXTKEY, 'static/5x/',           'Foundation [1] 5x');
-    t3lib_extMgm::addStaticFile($_EXTKEY, 'static/4x/',           'Foundation [1] 4x ');
-    t3lib_extMgm::addStaticFile($_EXTKEY, 'static/4x/powermail',  'Foundation [2] 4x + Powermail 2x');
-//    switch( true )
-//    {
-//      case( $typo3Version < 4007000 ):
-//        t3lib_extMgm::addStaticFile($_EXTKEY,'static/typo3/4.6/', '+Flip it!: Basis fuer TYPO3 < 4.7 (einbinden!)');
-//        break;
-//      default:
-//        t3lib_extMgm::addStaticFile($_EXTKEY,'static/typo3/4.6/', '+Flip it!: Basis fuer TYPO3 < 4.7 (NICHT einbinden!)');
-//        break;
-//    }
+    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript/Page/5x/',                'Foundation [1] 5x');
+    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript/Page/4x/',                'Foundation [1] 4x ');
+    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript/Foundation/4x/powermail', 'Foundation [2] 4x + Powermail 2x');
     break;
   default:
       // English
-    t3lib_extMgm::addStaticFile($_EXTKEY, 'static/5x/',           'Foundation [1] 5x');
-    t3lib_extMgm::addStaticFile($_EXTKEY, 'static/4x/',           'Foundation [1] 4x ');
-    t3lib_extMgm::addStaticFile($_EXTKEY, 'static/4x/powermail',  'Foundation [2] 4x + Powermail 2x');
-//    switch( true )
-//    {
-//      case( $typo3Version < 4007000 ):
-//        t3lib_extMgm::addStaticFile($_EXTKEY,'static/typo3/4.6/', '+Flip it!: Basis for TYPO3 < 4.7 (obligate!)');
-//        break;
-//      default:
-//        t3lib_extMgm::addStaticFile($_EXTKEY,'static/typo3/4.6/', '+Flip it!: Basis for TYPO3 < 4.7 (don\'t use it!)');
-//        break;
-//    }
+    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript/Page/5x/',                'Foundation [1] 5x');
+    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript/Page/4x/',                'Foundation [1] 4x ');
+    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript/Foundation/4x/powermail', 'Foundation [2] 4x + Powermail 2x');
     break;
 }
   // Case $beLanguage
   // Enables the Include Static Templates
-  
+
 
 
   ////////////////////////////////////////////////////////////////////////////
@@ -133,6 +115,7 @@ switch( true )
     break;
   default:
       // English
+    $TCA['pages']['columns']['module']['config']['items'][] =
        array( 'Foundation', 't3foundatn', t3lib_extMgm::extRelPath( $_EXTKEY ).'ext_icon.gif' );
 }
   // Case $beLanguage
