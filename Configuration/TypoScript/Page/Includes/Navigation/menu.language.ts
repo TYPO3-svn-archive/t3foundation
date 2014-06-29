@@ -1,0 +1,37 @@
+/*
+The LANGUAGE menu
+
+Generates a list of available languages on a page. If the page has no language
+overlay, there is no link available to switch to the language.
+*/
+
+menu.language = HMENU
+
+
+menu.language {
+	special = language
+	special.value = 0,1
+	1 = TMENU
+	1 {
+		wrap = |
+
+		NO = 1
+		NO {
+			ATagParams = class="nav-language icon-earth"
+
+			# Override the standard menu item value (which is the page title) with our own cObject
+			stdWrap.cObject = TEXT
+
+			# Use the TypoScript option split function to display different values for the first and second item
+			stdWrap.cObject.value = {$contentpage.language1} || {$contentpage.language2}
+			stdWrap.cObject.wrap = <span class="text">|</span>
+		}
+
+		ACT < .NO
+		ACT {
+			ATagParams = class="nav-language icon-earth active"
+		}
+	}
+}
+
+menu.language >

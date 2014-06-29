@@ -1,0 +1,53 @@
+<!--[if lt IE 9]>
+  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div id="mainwrapper">
+  <div class="row">
+    <div class="small-12 columns">
+      <f:render partial="Structure/Header/top" />
+    </div>
+  </div>
+  <div class="row">
+    <div class="small-12 columns">
+      <f:render partial="Structure/Header/main" />
+    </div>
+  </div>
+  <div class="row">
+    <div class="small-12 columns">
+      <f:render partial="Structure/Header/bottom" />
+    </div>
+  </div>
+  <div class="row">
+    <div class="small-12 columns">
+      <f:render partial="Structure/Content/top" />
+    </div>
+  </div>
+  <f:render section="main" />
+  <div class="row">
+    <div class="small-12 columns">
+      <f:render partial="Structure/Content/bottom" />
+    </div>
+  </div>
+  <div class="row">
+    <div class="small-12 columns">
+      <footer>
+        <f:render partial="Structure/Footer/top" />
+      </footer/>
+    </div>
+  </div>
+  <div class="row">
+    <div class="small-12 columns">
+      <footer>
+        <f:render partial="Structure/Footer/main" />
+      </footer/>
+    </div>
+  </div>
+  <div class="row">
+    <div class="small-12 columns">
+      <footer>
+        <f:render partial="Structure/Footer/bottom" />
+      </footer/>
+    </div>
+  </div>
+</div>

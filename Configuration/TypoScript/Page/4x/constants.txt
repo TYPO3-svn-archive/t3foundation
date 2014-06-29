@@ -1,2 +1,2 @@
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:css_styled_content/static/constants.txt">
+#<INCLUDE_TYPOSCRIPT: source="FILE:EXT:css_styled_content/static/constants.txt">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:t3foundation/Configuration/TypoScript/Page/Includes/constants.ts">
