@@ -102,7 +102,7 @@ class tx_t3foundation_userfunc
   {
     $arrReturn = null;
     
-    if( ! t3lib_extMgm::isLoaded( $_EXTKEY ) )
+    if( ! \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded( $_EXTKEY ) )
     {
       $arrReturn['int'] = 0;
       $arrReturn['str'] = 0;
@@ -110,7 +110,7 @@ class tx_t3foundation_userfunc
     }
 
       // Do not use require_once!
-    require( t3lib_extMgm::extPath( $_EXTKEY ) . 'ext_emconf.php');
+    require( \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath( $_EXTKEY ) . 'ext_emconf.php');
     $strVersion = $EM_CONF[$_EXTKEY]['version'];
 
       // Set version as integer (sample: 4.7.7 -> 4007007)

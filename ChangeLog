@@ -1,3 +1,19 @@
+1.0.0
+  2014-11-22
+  Feature
+  * #63148: COA id for fluidtemplate
+  Development
+  * #i0012: Clean up
+  * #i0011: Dataprovider for backend-layouts
+
+0.3.0
+  2014-07-03
+  Development
+  * #i0010: Some Foundation Features are integrated as grid elements.
+            Database records and icons have to install manually for
+            * backend_layout
+            * tx_gridelements_backend_layout
+
 0.2.0
   2014-06-29
   Development
@@ -6,7 +22,7 @@
               * backend_layouts
               *  tx_gridelements_backend_layout
             * Icons in
-              * Ressources/Public/uploads
+              * Resources/Public/uploads
                 * media
                 * tx_gridelements
   * #i0008: Improved Manual
@@ -22,7 +38,7 @@
   Development
   * #i0005: Powermail section: tab -> auto
             Effected file:
-            * Ressources/Public/JavaScript/Libs/Powermail_2.0.10/Templates/Forms/Form.html: 18
+            * Resources/Public/JavaScript/Libs/Powermail_2.0.10/Templates/Forms/Form.html: 18
 
 0.0.4
   2014-01-14
@@ -34,7 +50,7 @@
   Feature
   * #54859. Powermail for Foundation
             Effected files:
-            * Ressources/Public/JavaScript/Libs/Powermail_2.0.10/*
+            * Resources/Public/JavaScript/Libs/Powermail_2.0.10/*
             * static/4x/powermail/*
 
 0.0.2

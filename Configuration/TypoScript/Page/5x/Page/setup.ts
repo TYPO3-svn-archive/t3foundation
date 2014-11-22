@@ -1,4 +1,3 @@
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:t3foundation/Configuration/TypoScript/Page/Includes/Navigation/menu.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:t3foundation/Configuration/TypoScript/Page/Includes/Structure/content.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:t3foundation/Configuration/TypoScript/Page/Includes/Structure/footer.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:t3foundation/Configuration/TypoScript/Page/Includes/Structure/header.ts">

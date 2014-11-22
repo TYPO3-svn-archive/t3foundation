@@ -15,22 +15,11 @@ t3foundation {
           select {
             where = colPos=3
           }
+          slide = -1
           stdWrap {
-            ifEmpty {
-              cObject = CONTENT
-              cObject {
-                table = tt_content
-                select {
-                  pidInList = {$t3foundation.pages.root}
-                  orderBy   = sorting
-                  where     = colPos=3
-                }
-              }
-            }
+            required  = 1
+            wrap      = <!--contentbottom--><!--TYPO3SEARCH_begin--><section class="content contentbottom"><div class="row"><div class="small-12 columns"> |</div></div></section><!--TYPO3SEARCH_end--><!--/contentbottom-->
           }
-        }
-        stdWrap {
-          wrap = <!--TYPO3SEARCH_begin--> | <!--TYPO3SEARCH_end-->
         }
       }
       // CONTENT, stdWrap
@@ -41,13 +30,10 @@ t3foundation {
             where = colPos=1
           }
           stdWrap {
-            ifEmpty {
-              cObject {
-                select {
-                  where = colPos=1
-                }
-              }
-            }
+            required  = 1
+            wrap      = <!--contentleft--><!--TYPO3SEARCH_begin--><section class="content contentleft"><div class="row"><div class="small-12 columns"> |</div></div></section><!--TYPO3SEARCH_end--><!--/contentleft-->
+            required  >
+            wrap      >
           }
         }
       }
@@ -58,14 +44,10 @@ t3foundation {
           select {
             where = colPos=0
           }
+          slide >
           stdWrap {
-            ifEmpty {
-              cObject {
-                select {
-                  where = colPos=0
-                }
-              }
-            }
+            required  >
+            wrap      >
           }
         }
       }
@@ -77,13 +59,10 @@ t3foundation {
             where = colPos=2
           }
           stdWrap {
-            ifEmpty {
-              cObject {
-                select {
-                  where = colPos=2
-                }
-              }
-            }
+            required  = 1
+            wrap      = <!--contentright--><!--TYPO3SEARCH_begin--><section class="content contentright"><div class="row"><div class="small-12 columns"> |</div></div></section><!--TYPO3SEARCH_end--><!--/contentright-->
+            required  >
+            wrap      >
           }
         }
       }
@@ -95,13 +74,8 @@ t3foundation {
             where = colPos=4
           }
           stdWrap {
-            ifEmpty {
-              cObject {
-                select {
-                  where = colPos=4
-                }
-              }
-            }
+            required  = 1
+            wrap      = <!--contenttop--><!--TYPO3SEARCH_begin--><section class="content contenttop"><div class="row"><div class="small-12 columns"> |</div></div></section><!--TYPO3SEARCH_end--><!--/contenttop-->
           }
         }
       }

@@ -16,7 +16,7 @@ plugin.tx_powermail {
 
 page {
   includeJSFooter {
-    t3foundation4xPowermail2x = EXT:t3foundation/Ressources/Public/JavaScript/Libs/T3foundation/4.3.2/js/powermail2x.js
+    t3foundation4xPowermail2x = EXT:t3foundation/Resources/Public/JavaScript/Libs/T3foundation/4.3.2/js/powermail2x.js
   }
   includeJSFooterlibs {
     powermailJQueryFormValidation >

@@ -1,37 +1,7 @@
 page {
     // layoutRootPath, partialRootPath, file
-  xx10 = FLUIDTEMPLATE
-  xx10 {
-      file.stdWrap.cObject = TEXT
-      file.stdWrap.cObject {
-          data = levelfield:-2,backend_layout_next_level,slide
-          override.field = backend_layout
-          split {
-              token = file__
-              1.current = 1
-              1.wrap = |
-          }
-          wrap = EXT:modernpackage/Resources/Private/Templates/|.html
-      }
-      layoutRootPath = EXT:modernpackage/Resources/Private/Templates/Layouts/
-      variables {
-
-      }
-  }
-  20 = TEXT
-  20 {
-    data = levelfield:-2,backend_layout_next_level,slide
-    override.field = backend_layout
-    XXsplit {
-        token = file__
-        1.current = 1
-        1.wrap = |
-    }
-    XXwrap = EXT:modernpackage/Resources/Private/Templates/|.html
-    wrap = |
-  }
-  XX63148 = FLUIDTEMPLATE
-  XX63148 {
+  10 = FLUIDTEMPLATE
+  10 {
     layoutRootPath  = {$t3foundation.fluid.path.layouts}
     partialRootPath = {$t3foundation.fluid.path.partials}
     file {

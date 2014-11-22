@@ -5,15 +5,15 @@ main menu template - for foundation framework
 menu.base = HMENU
 menu.base {
 	stdWrap.wrap = <div class="{$topbar.top-bar.position}">|</div>
-  	wrap = <nav class="top-bar" data-options="mobile_show_parent_link:{$topbar.top-bar.mobileShowParentLink};is_hover:{$topbar.top-bar.is_hover};back_text:{$topbar.top-bar.back_text}">|</nav>
-  	
+  wrap = <nav class="top-bar" data-options="mobile_show_parent_link:{$topbar.top-bar.mobileShowParentLink};is_hover:{$topbar.top-bar.is_hover};back_text:{$topbar.top-bar.back_text}">|</nav>
+
 	1 = TMENU
 	1 {
 		expAll = 1
 		collapse = 0
 		noBlur = 1
 		wrap (
-		
+
 		<ul class="title-area">
 		  <li class="name"><!-- Leave this empty --></li>
 		  <li class="toggle-topbar menu-icon"><a href="#"><span>{$topbar.top-bar.smallTitle}</span></a></li>
@@ -30,13 +30,13 @@ menu.base {
 			#	field = title
 			#	fieldRequired = nav_title
 			#}
-			
+
 			ATagTitle.field = abstract // subtitle // title
       		wrapItemAndSub = <li>|</li> <li class="divider"></li>
-			
+
 			# wrapItemAndSub = <li>|</li>
 			ATagParams.wrap = class="first firstlevel |" |*| class="all firstlevel |" |*| class="last firstlevel |"
-			#ATagParams.wrap = class="firstlevel |" 
+			#ATagParams.wrap = class="firstlevel |"
 
 			# HTML-encode special characters according to the PHP-function htmlSpecialChars
 			stdWrap.htmlSpecialChars = 1
@@ -44,20 +44,20 @@ menu.base {
 		IFSUB = 1
 		IFSUB < .NO
 		IFSUB.wrapItemAndSub = <li class="has-dropdown">|</li> <li class="divider"></li>
-	
+
 		ACT < .NO
 		ACT = 1
 		ACT.wrapItemAndSub = <li class="active">|</li> <li class="divider"></li>
-	
-		ACTIFSUB < .NO    
+
+		ACTIFSUB < .NO
 		ACTIFSUB = 1
 		ACTIFSUB.wrapItemAndSub = <li class="active has-dropdown">|</li> <li class="divider"></li>
-		
+
 		CUR < .NO
 		CUR = 1
 		CUR.wrapItemAndSub = <li class="current">|</li> <li class="divider"></li>
-	
-		CURIFSUB < .NO    
+
+		CURIFSUB < .NO
 		CURIFSUB = 1
 		CURIFSUB.wrapItemAndSub = <li class="current has-dropdown">|</li> <li class="divider"></li>
 		}
@@ -88,7 +88,7 @@ menu.base {
 
 			wrapItemAndSub = <li>|</li>
 			#ATagParams.wrap = class="first |" |*| class="all |" |*| class="last |"
-			ATagParams.wrap = class="firstlevel |" 
+			ATagParams.wrap = class="firstlevel |"
 
 			# HTML-encode special characters according to the PHP-function htmlSpecialChars
 			stdWrap.htmlSpecialChars = 1
