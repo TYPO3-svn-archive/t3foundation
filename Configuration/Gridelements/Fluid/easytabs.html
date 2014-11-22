@@ -1,0 +1,13 @@
+<div id="{data.pi_flexform.data.sDEF.lDEF.easytabstype.vDEF}">
+	<ul class="resp-tabs-list">
+		<f:for each="{data.tx_gridelements_view_children}" as="el" iteration="i">
+			<li class='tab'><a href="#tabs-{i.index}">{el.header}</a></li>
+		</f:for>
+	</ul>
+
+	<div class="resp-tabs-container">
+		<f:for each="{data.tx_gridelements_view_children}" as="el" iteration="i">
+			<div id="tabs-{i.index}"><f:format.html parseFuncTSPath="lib.parseFunx">{el.bodytext}</f:format.html></div>
+		</f:for>
+	</div>
+</div>

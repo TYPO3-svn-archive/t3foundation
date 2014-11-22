@@ -1,0 +1,8 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:t3foundation/Configuration/Gridelements/TypoScript/Setup/columns_02.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:t3foundation/Configuration/Gridelements/TypoScript/Setup/columns_03.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:t3foundation/Configuration/Gridelements/TypoScript/Setup/columns_04.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:t3foundation/Configuration/Gridelements/TypoScript/Setup/columns_05.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:t3foundation/Configuration/Gridelements/TypoScript/Setup/columns_06.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:t3foundation/Configuration/Gridelements/TypoScript/Setup/foundation_orbit.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:t3foundation/Configuration/Gridelements/TypoScript/Setup/foundation_section.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:t3foundation/Configuration/Gridelements/TypoScript/Setup/foundation_tabs.ts">
