@@ -7,11 +7,9 @@ t3foundation {
 
 t3foundation {
   # cat=t3foundation - fluid path//200; type=string; label= layout:Path to the fluid layouts. With ending slash!
-  fluid.path.layouts    = EXT:t3foundation/Resources/Private/Layouts/Page/
+  fluid.path.layouts    = EXT:t3foundation/Resources/Private/Templates/Layouts/
   # cat=t3foundation - fluid path//201; type=string; label= partials:Path to the fluid partials. With ending slash!
-  fluid.path.partials   = EXT:t3foundation/Resources/Private/Partials/Page/
+  fluid.path.partials   = EXT:t3foundation/Resources/Private/Templates/Partials/
   # cat=t3foundation - fluid path//202; type=string; label= templates:Path to the fluid templates. With ending slash!
-  fluid.path.templates  = EXT:t3foundation/Resources/Private/Templates/Page/
+  fluid.path.templates  = EXT:t3foundation/Resources/Private/Templates/
 }
-
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:t3foundation/Configuration/TypoScript/Page/5x/Includes/Foundation/Components/constants.ts">
