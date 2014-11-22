@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2014-11-22T15:11:39Z" product-name="t3foundation">
+    <header/>
+    <body>
+
+      <trans-unit id="theme_name">
+        <source>T3 Foundation</source>
+      </trans-unit>
+
+      <trans-unit id="backend_layout.bronze_01">
+        <source>t3foundation Bronze 1: | MAIN |</source>
+      </trans-unit>
+      <trans-unit id="backend_layout.bronze_02">
+        <source>t3foundation Bronze 2: | MAIN | right |</source>
+      </trans-unit>
+      <trans-unit id="backend_layout.bronze_03">
+        <source>t3foundation Bronze 3: | left | MAIN |</source>
+      </trans-unit>
+      <trans-unit id="backend_layout.bronze_04">
+        <source>t3foundation Bronze 4: | left | MAIN | right |</source>
+      </trans-unit>
+      <trans-unit id="backend_layout.default">
+        <source>t3foundation: TYPO3 default</source>
+      </trans-unit>
+      <trans-unit id="backend_layout.silver_01">
+        <source>t3foundation Silver 1: | MAIN |</source>
+      </trans-unit>
+      <trans-unit id="backend_layout.silver_02">
+        <source>t3foundation Silver 2: | MAIN | right |</source>
+      </trans-unit>
+      <trans-unit id="backend_layout.silver_03">
+        <source>t3foundation Silver 3: | left | MAIN |</source>
+      </trans-unit>
+      <trans-unit id="backend_layout.silver_04">
+        <source>t3foundation Silver 4: | left | MAIN | right |</source>
+      </trans-unit>
+      <trans-unit id="backend_layout.gold_01">
+        <source>t3foundation Gold 1: | MAIN |</source>
+      </trans-unit>
+      <trans-unit id="backend_layout.gold_02">
+        <source>t3foundation Gold 2: | MAIN | right |</source>
+      </trans-unit>
+      <trans-unit id="backend_layout.gold_03">
+        <source>t3foundation Gold 3: | left | MAIN |</source>
+      </trans-unit>
+      <trans-unit id="backend_layout.gold_04">
+        <source>t3foundation Gold 4: | left | MAIN | right |</source>
+      </trans-unit>
+
+      <trans-unit id="backend_layout.column.content">
+        <source>Content</source>
+      </trans-unit>
+      <trans-unit id="backend_layout.column.content.bottom">
+        <source>Below the content</source>
+      </trans-unit>
+      <trans-unit id="backend_layout.column.content.left">
+        <source>Left margin</source>
+      </trans-unit>
+      <trans-unit id="backend_layout.column.content.right">
+        <source>Right margin</source>
+      </trans-unit>
+      <trans-unit id="backend_layout.column.content.top">
+        <source>Above the content</source>
+      </trans-unit>
+
+      <trans-unit id="backend_layout.column.header">
+        <source>Header</source>
+      </trans-unit>
+      <trans-unit id="backend_layout.column.header.bottom">
+        <source>Below the header</source>
+      </trans-unit>
+      <trans-unit id="backend_layout.column.header.left">
+        <source>Left margin</source>
+      </trans-unit>
+      <trans-unit id="backend_layout.column.header.right">
+        <source>Right margin</source>
+      </trans-unit>
+      <trans-unit id="backend_layout.column.header.top">
+        <source>Above the header</source>
+      </trans-unit>
+
+      <trans-unit id="backend_layout.column.footer">
+        <source>Footer</source>
+      </trans-unit>
+      <trans-unit id="backend_layout.column.footer.bottom">
+        <source>Below the footer</source>
+      </trans-unit>
+      <trans-unit id="backend_layout.column.footer.left">
+        <source>Left margin</source>
+      </trans-unit>
+      <trans-unit id="backend_layout.column.footer.right">
+        <source>Right margin</source>
+      </trans-unit>
+      <trans-unit id="backend_layout.column.footer.top">
+        <source>Above the footer</source>
+      </trans-unit>
+
+      <trans-unit id="backend_layout.column.hidden">
+        <source>Hidden</source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>
