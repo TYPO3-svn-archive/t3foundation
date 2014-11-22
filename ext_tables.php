@@ -38,14 +38,12 @@ switch ( $beLanguage )
 switch( true )
 {
   case( $beLanguage == 'de' ):
-      // German
-    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript/Page/5x/',                  'TYPO3 Foundation (1) Framework');
-    //\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/Gridelements/TypoScript/',             'Foundation (2) Gridelements');
+    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript/Base/',  'TYPO3 Foundation [1] Basis');
+    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript/Page/5x/',  'TYPO3 Foundation [2] Framework');
     break;
   default:
-      // English
-    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript/Page/5x/',                  'TYPO3 Foundation (1) Framework');
-    //\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/Gridelements/TypoScript/',             'Foundation (2) Gridelements');
+    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript/Base/',  'TYPO3 Foundation [1] Base');
+    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript/Page/5x/',  'TYPO3 Foundation [2] Framework');
     break;
 }
 
