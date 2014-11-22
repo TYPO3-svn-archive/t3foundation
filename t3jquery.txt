@@ -1,4 +1,3 @@
-  // Resources/Public/JavaScript/Libs/Foundation-4.3.2/foundation.min.js
-  // Resources/Public/JavaScript/Libs/Foundation-5.0.2/foundation.min.js
-script=Resources/Public/JavaScript/Libs/Foundation-4.3.2/foundation.min.js,Resources/Public/JavaScript/Libs/Foundation-5.0.2/foundation.min.js
+  // Resources/Public/JavaScript/Libs/Foundation-5.4.7/foundation.min.js
+script=Resources/Public/JavaScript/Libs/Foundation-5.4.7/foundation.min.js
 components=
